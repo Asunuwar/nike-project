@@ -1,0 +1,105 @@
+
+/* CSS Documents */ */
+ html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  font-family:montserrat,sans-serif;
+  background-color: White;
+}
+
+.navigation-container{
+  position:absolute;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+}
+
+.logo img{
+    float:left;
+    height: 60px;
+    padding: 0px 20px;
+    box-sizing:border-box;
+}
+
+.menu-left{
+    float:left;
+    margin: 10px 50px;
+}
+
+.menu-right{
+  float:right;
+}
+
+.menu ul{
+    list-style:none;
+    margin: 0px 20px;
+    display: flex;
+}
+.menu ul li a{
+      display: block;
+      margin: 10px 0px;
+      text-decoration: none;
+      font-weight: 200;
+      color:#FFFFFF;
+      font-size: 12px;
+      padding: 10px 25px;
+}
+
+.search-box{
+  height: 18px;
+  padding: 10px;
+  border-bottom: 1px solid #FFFFFF;
+  margin: 10px 50px;
+  background-color:transparent;
+
+}
+
+input[type=search]{
+  background-color: transparent;
+  width: 170px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.slider-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.slide-box{
+display: flex;
+
+}
+
+.slider-text{
+  flex-basis: 400px;
+  color: #FFFFFF;
+}
+.slider-text p{
+  color:rgba(110,105,105,1.00);
+  line-height: 20px;
+}
+
+h6{
+  font-size: 15px;
+  white-space: 5px;
+  line-height: 20px;
+  color:#dc721F;
+  flex-wrap: wrap;
+}

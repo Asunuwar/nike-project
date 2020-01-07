@@ -141,7 +141,7 @@ a{
   color: #111;
   margin-right: 6px;
   margin-bottom: 6px;
- position: relative;
+
 }
 
 .a.hover {
@@ -207,9 +207,6 @@ p{
   background-color:white;
   background-position: center;
   height: 500px;
-}
-
-.eigth {
   display: flex;
   color: white;
   font-family: helvetica;
@@ -237,7 +234,7 @@ p{
   margin-left: 20px
 }
 
-AirforceText1 {
+.AirforceText1 {
   font-weight: 500;
   font-size: 22px;
   font-family: "Helvetica Neue";
@@ -245,17 +242,10 @@ AirforceText1 {
   margin-left: 40px;
 }
 
-AirforceText2 {
-  font-weight: 500;
-  font-size: 22px;
-  font-family: "Helvetica Neue";
-  margin-top: 320px;
-  margin-left: 40px;
-  color: black;
-}
 
 .newArrivals {
   background-image:url(../images/product/desktop/4.jpg);
+/*  can also be added image from http */
   /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/4.jpg'); */
   background-size: cover;
   background-position: center;
@@ -267,6 +257,14 @@ AirforceText2 {
   margin-right: 20px;
 }
 
+.AirforceText2 {
+  font-weight: 500;
+  font-size: 22px;
+  font-family: "Helvetica Neue";
+  margin-top: 320px;
+  margin-left: 40px;
+  color: black;
+}
 
 .tenth{
   background-image:url(../images/product/desktop/5.jpg);

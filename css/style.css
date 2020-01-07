@@ -1,4 +1,5 @@
-#first {
+
+.first {
   display: flex;
   width: 100%;
   margin-bottom: 20px;
@@ -37,7 +38,7 @@ li a:hover, .dropdown:hover .dropbtn {
   color: black;
 }
 
-#logIn:hover, .dropbtn:hover {
+.logIn:hover, .dropbtn:hover {
   border-bottom: 1px solid #d0d0d0;
 }
 
@@ -70,7 +71,7 @@ li.dropdown {
   display: block;
 }
 
-#nikePlus, #NBA, #hurley, #converse {
+.nikePlus, .NBA, .hurley, .converse {
   border: solid 0.5px #DCDCDC;
   padding-right: 10px;
   align: center;
@@ -82,26 +83,26 @@ li.dropdown {
   height: auto;
 }
 
-#rightSide {
+.rightSide {
   margin-left: 500px;
 }
 
-#second {
+.second {
   display: flex;
   position: sticky;
   margin: 0px 30px;
 }
 
-#nikeSymbol {
+.nikeSymbol {
   flex;
 }
 
-#nikeLogo {
+.nikeLogo {
   margin-right: 300px;
   padding: 10px;
 }
 
-#secondButtonMiddle {
+.secondButtonMiddle {
   display: flex;
 }
 
@@ -123,7 +124,7 @@ li.dropdown {
   border: black;
 }
 
-#searchButton {
+.searchButton {
   width: 100%;
   max-width: 100%;
   float: right;
@@ -131,8 +132,8 @@ li.dropdown {
   margin: 20px 0px 0px 180px;
 }
 
-button {
-  padding: 12px 28px;
+a{
+  padding: 10px 28px;
   border: none;
   margin-top: 7px;
   border-radius: 20px;
@@ -140,28 +141,29 @@ button {
   color: #111;
   margin-right: 6px;
   margin-bottom: 6px;
-  position: relative;
+ position: relative;
 }
 
-button:hover {
+.a.hover {
   background-color: #FFFAF0;
 }
 
-#fourth {
-  background-image: url(file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/1.jpg);
+.fourth {
+  background-image:url(../images/product/desktop/1.jpg);
+  /* background-image: url(file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/1.jpg); */
   background-size: cover;
   background-position: center;
   height: 500px;
   margin: 0px 30px;
 }
 
-#fourth-content {
+.fourth-content {
   padding: 30px;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#LeBron{
+.LeBron{
   font-size: 40px;
   line-height: .9;
   font-family: Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -170,15 +172,16 @@ button:hover {
   text-transform: uppercase;
 }
 
-#Sixth {
-  background-image: url(file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/2.jpg);
+.Sixth {
+  background-image:url(../images/product/desktop/2.jpg);
+  /* background-image: url(file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/2.jpg); */
   background-size: cover;
   background-position: center;
   height: 500px;
   margin: 0px 30px;
 }
 
-#Sixth-content {
+.Sixth-content {
   padding: 10px;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -189,7 +192,7 @@ p{
   padding: 30px;
 }
 
-#workout{
+.workout{
   font-size: 40px;
   line-height: .9;
   font-family: Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -199,20 +202,20 @@ p{
 }
 
 
-#eigth {
+.eigth {
   color: white;
   background-color:white;
   background-position: center;
   height: 500px;
 }
 
-#eigth {
+.eigth {
   display: flex;
   color: white;
   font-family: helvetica;
 }
 
-#Airforce {
+.Airforce {
   color: white;
   font-family: helvetica;
   margin-left: 40px;
@@ -221,8 +224,9 @@ p{
 }
 
 
-#Airforce {
-  background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/3.jpg');
+.Airforce {
+  background-image:url(../images/product/desktop/3.jpg);
+  /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/3.jpg'); */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -233,7 +237,7 @@ p{
   margin-left: 20px
 }
 
-#AirforceText1 {
+AirforceText1 {
   font-weight: 500;
   font-size: 22px;
   font-family: "Helvetica Neue";
@@ -241,7 +245,7 @@ p{
   margin-left: 40px;
 }
 
-#AirforceText2 {
+AirforceText2 {
   font-weight: 500;
   font-size: 22px;
   font-family: "Helvetica Neue";
@@ -250,8 +254,9 @@ p{
   color: black;
 }
 
-#newArrivals {
-  background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/4.jpg');
+.newArrivals {
+  background-image:url(../images/product/desktop/4.jpg);
+  /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/4.jpg'); */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -263,21 +268,22 @@ p{
 }
 
 
-#tenth{
-  background-image: url(file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/5.jpg);
+.tenth{
+  background-image:url(../images/product/desktop/5.jpg);
+  /* background-image: url(file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/5.jpg); */
   background-size: cover;
   background-position: center;
   height: 500px;
   margin: 0px 30px;
 }
 
-#tenth-content {
+.tenth-content {
   padding: 30px;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#city{
+.city{
   font-size: 40px;
   line-height: .9;
   font-family: Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -286,20 +292,20 @@ p{
   text-transform: uppercase;
 }
 
-#twelve{
+.twelve{
   color: white;
   background-color:white;
   background-position: center;
   height: 500px;
 }
 
-#twelve{
+.twelve{
   display: flex;
   color: white;
   font-family: helvetica;
 }
 
-#Airjordan {
+.Airjordan {
   color: white;
   font-family: helvetica;
   margin-left: 40px;
@@ -308,8 +314,9 @@ p{
 }
 
 
-#Airjordan {
-  background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/6.jpg');
+.Airjordan {
+  background-image:url(../images/product/desktop/6.jpg);
+  /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/6.jpg'); */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -320,7 +327,7 @@ p{
   margin-left: 20px
 }
 
-#AirjordanText1 {
+.AirjordanText1 {
   font-weight: 500;
   font-size: 22px;
   font-family: "Helvetica Neue";
@@ -328,7 +335,7 @@ p{
   margin-left: 40px;
 }
 
-#AirjordanText2 {
+.AirjordanText2 {
   font-weight: 500;
   font-size: 22px;
   font-family: "Helvetica Neue";
@@ -338,8 +345,9 @@ p{
 }
 
 
-#new {
-  background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/7.jpg');
+.new {
+  background-image:url(../images/product/desktop/7.jpg);
+  /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/7.jpg'); */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -350,12 +358,13 @@ p{
   margin-right: 20px;
 }
 
-#fourteen{
+.fourteen{
     display: flex;
 }
 
-#img1 {
-  background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/8.jpg');
+.img1 {
+  background-image:url(../images/product/desktop/8.jpg);
+  /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/8.jpg'); */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -366,8 +375,9 @@ border-color:white;
    margin-left: 20px;
 }
 
-#img2 {
-  background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/9.jpg');
+.img2 {
+  background-image:url(../images/product/desktop/9.jpg);
+  /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/9.jpg'); */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -377,8 +387,9 @@ border-style:solid;
 border-color:white;
 }
 
-#img3 {
-  background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/10.jpg');
+.img3 {
+  background-image:url(../images/product/desktop/10.jpg);
+  /* background-image: url('file:///Users/arunsunuwar/Desktop/GA%20homework/nike-project/images/product/desktop/10.jpg'); */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -389,15 +400,15 @@ border-color:white;
   margin-right: 20px;
 }
 
-#img1Text {
+.img1Text {
   padding-top: 500px;
 }
 
-#img2Text {
+.img2Text {
   padding-top: 500px;
 }
 
-#img3Text {
+.img3Text {
   padding-top: 500px;
 }
 
@@ -407,7 +418,7 @@ border-color:white;
   margin-left: 15px;
 }
 
-#fifteen {
+.fifteen {
   display: flex;
   margin-top: 60px;
 }
